@@ -1,0 +1,32 @@
+.collection-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.collection-item:hover {
+    background-color: rgb(210, 254, 255)
+}
+
+.material-icons {
+    cursor: pointer;
+}
+
+.material-icons:hover {
+    color: darkturquoise;
+}
+
+.textDecoration-none {
+    color: black;
+}
+
+.textDecoration-none> .collection-item:last-child{
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.textDecoration-none:last-child > .collection-item{
+    border-bottom: none
+}
+
+.thumb-up:hover {
+    color: red;
+}
